@@ -1,0 +1,130 @@
+.expertise {
+    padding: 50px 0;
+  }
+  
+  .expertise h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .image_monparcours{
+    width: 50%;
+    height: auto;
+    border-radius: 40%;
+    border: 10px solid #009688;
+  }
+  .stats {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .team {
+    padding: 50px 0;
+  }
+  
+  .team h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .member {
+    width: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .partners {
+    padding: 50px 0;
+  }
+  
+  .partners h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .opportunities {
+    padding: 50px 0;
+  }
+  
+  .opportunities h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .opportunities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .opportunity {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .opportunity h3 {
+    margin-bottom: 10px;
+  }
+  
+  .locations {
+    padding: 50px 0;
+  }
+  
+  .locations h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .locations-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .location {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .experience {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .experience h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
