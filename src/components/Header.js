@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Header.css";
+
 import RedirectButton from './Redirection';
 import imageheader from "../images/Image (7).png"
-import LOGO from "../images/PHOTO-2024-09-30-09-33-00-removebg-preview.png"
+import LOGO from "../images/PHOTO-2024-10-01-11-33-56-removebg-preview.png"
 
 
 const Header = () => {
@@ -16,20 +17,20 @@ const Header = () => {
           
         </div>
         <nav className="nav">
-          <ul>
-          <li>
-              <a href="/services">Home</a>
-            </li>
-            <li>
-              <a href="/apropos">Mes services</a>
-            </li>
-            <li>
-              <a href="/profile">A propos de moi</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
+        <ul>
+        <li>
+          <Link to="/services">Home</Link>
+        </li>
+        <li>
+          <Link to="/apropos">Mes services</Link>
+        </li>
+        <li>
+          <Link to="/profile">A propos de moi</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
         </nav>
         <RedirectButton className="button" path="/profile" label="EXPLORER" />
       </div>

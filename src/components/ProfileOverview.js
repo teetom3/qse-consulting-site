@@ -5,12 +5,14 @@ import ImgProfile from "../images/20240916_094501.jpg";
 import ImgPro from "../images/monparcours.webp"
 import ImgSafety from "../images/sécurité.webp";
 import ImgQuality from "../images/quality.webp";
-import ImgEnvironement from "../images/environnement.webp"
+import ImgEnvironement from "../images/environnement.webp";
+import ImgManagement from "../images/management.webp";
+import ImgTransition from "../images/transition .webp";
 
 
 const ProfileOverview = () => {
   return (
-    <div>
+    <div className='container'>
     <div className="profile">
       <div className='Profile_Text'>
       <h2>« Qui suis-je ? »</h2>
@@ -70,7 +72,31 @@ médicaux.</p>
         <img src={ImgEnvironement} alt="Dream Destinations" />
         <h3>Environnement</h3>
         <p>Sensible aux enjeux environnementaux, j’aide les entreprises à adopter des pratiques durables, que ce soit par la
-        réduction de leur empreinte carbone ou la mise en place de certifications comme l&#39;ISO 14001. »</p>
+        réduction de leur empreinte carbone ou la mise en place de certifications comme l&#39;ISO 14001. </p>
+       
+      </li>
+      <li className="showcase-item">
+        <img src={ImgManagement} alt="Dream Destinations" />
+        <h3>Management</h3>
+        <p>Conduite de réunion ? Une revue de direction à préparer ? des entretiens annuels individuels ou des entretiens
+professionnels obligatoires à réaliser ? Nous sommes à votre disposition pour :
+- Préparer, réaliser, former, accompagner, coacher !
+Un conflit ? une envie de retrouver du dynamisme au sein d’une équipe ? Nous vous accompagnons avec des
+solutions sur mesure</p>
+       
+      </li>
+      <li className="showcase-item">
+        <img src={ImgTransition} alt="Dream Destinations" />
+        <h3>Management de Transition</h3>
+        <div><p>En période de crise, de restructuration ou de fusion, un manager de transition vous aide à maintenir la continuité tout en pilotant le changement.</p>
+Lors d'un départ soudain ou d'une longue absence d'un cadre, 
+nous sommes à votre disposition et capable de prendre la direction des opérations sans perturber le fonctionnement quotidien.<p>Vous avez un projet stratégique à mener (changement de système, expansion, certification) ? 
+
+</p>
+<p>
+Vous avez un projet stratégique à mener (changement de système, expansion, certification) ?
+  </p> En tant que manager de transition, 
+nous vous apportons notre expertise pour garantir la réussite de ces initiatives en respectant vos objectifs et délais.</div>
        
       </li>
     </ul>

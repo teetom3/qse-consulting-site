@@ -113,3 +113,106 @@ p {
   cursor: pointer;
 }
   
+
+@media(max-width:768px) {
+
+
+  /* Profil Section */
+.profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  
+}
+
+.Profile_Text {
+  
+  text-align: center;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-left: 0;
+}
+
+.profile img {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
+  border: 10px solid #009688;
+  margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image_monparcours {
+  width: 80%;
+  height: auto;
+  border-radius: 40%;
+  border: 10px solid #009688;
+  margin-bottom: 20px;
+}
+
+.stat {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Showcase Section */
+.showcase {
+  padding: 40px 20px;
+}
+
+.showcase-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+
+.showcase-item {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease, z-index 0.5s ease;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.showcase-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.showcase-item h3 {
+  text-align: center;
+}
+
+.showcase-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+}

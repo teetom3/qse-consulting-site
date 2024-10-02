@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import LOGO from "../images/PHOTO-2024-09-30-09-33-00-removebg-preview.png"
+import LOGO from "../images/PHOTO-2024-10-01-11-33-56-removebg-preview.png";
 const Footer = () => {
   return (
   
@@ -14,17 +14,17 @@ const Footer = () => {
                 <div className="footer-item">
                   <h3>Support</h3>
                   <ul>
-                    <li>Questions & Answers</li>
-                    <li>Client Support</li>
-                    <li>Environmental Guidance</li>
+                    <li><a href="/contact">Questions & Answers</a></li>
+                    <li><a href="/apropos">Client Support</a></li>
+                    <li><a href="/apropos">Environmental Guidance</a></li>
                   </ul>
                 </div>
                 <div className="footer-item">
                   <h3>Services</h3>
                   <ul>
-                    <li>Confidentiality Policy</li>
-                    <li>Site Navigation</li>
-                    <li>Membership</li>
+                    <li><a href="/apropos">Confidentiality Policy</a></li>
+                    <li><a href="/profile">Site Navigation</a></li>
+                    <li><a href="/contact">Membership</a></li>
                   </ul>
                 </div>
                 <div className="footer-item">
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="footer-join-now">
-                <input type="email" placeholder="Enter your email for updates" />
+                
                 <button className="button">Join Now</button>
               </div>
             </div>

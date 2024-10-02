@@ -94,6 +94,11 @@
   .opportunity h3 {
     margin-bottom: 10px;
   }
+
+  .opportunity p {
+    line-height: 1.6;
+  font-size: 16px;
+  }
   
   .locations {
     padding: 50px 0;
@@ -127,4 +132,116 @@
   .experience h2 {
     font-size: 2em;
     margin-bottom: 20px;
+  }
+
+  @media(max-width : 768px ) {
+    /* Section principale */
+.expertise, .stats, .team, .partners, .opportunities, .locations, .experience {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.expertise h2, .opportunities h2, .locations h2, .experience h2, .team h2, .partners h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.opportunities-grid, .locations-grid, .team-members {
+  display: flex;
+
+  align-items: center;
+}
+
+.opportunity, .location {
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.opportunity img, .location img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.opportunity h3, .location h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.opportunity p, .location p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.image_monparcours {
+  width: 80%;
+  height: auto;
+  border-radius: 40%;
+  border: 10px solid #009688;
+  margin-bottom: 20px;
+}
+
+.experience h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.experience p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button {
+  --color: #009688;
+  padding: 0.8em 1.5em;
+  background-color: transparent;
+  border-radius: .3em;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: .5s;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid var(--color);
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--color);
+  z-index: 1;
+}
+
+.button:hover {
+  color: #0a191e;
+}
+
+.button::before, .button::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: var(--color);
+  transition: 1s ease;
+}
+
+.button::before {
+  top: -1em;
+  left: -1em;
+}
+
+.button::after {
+  left: calc(100% + 1em);
+  top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+  height: 410px;
+  width: 410px;
+}
   }

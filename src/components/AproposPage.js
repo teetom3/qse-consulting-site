@@ -8,6 +8,8 @@ import Environnement from "../images/environment.webp";
 import Excellence from "../images/excellence.webp";
 import Ecoute from "../images/ecoute.webp";
 import Engagement from "../images/engagement.webp";
+import Management from "../images/management.webp";
+import Transition from "../images/transition .webp";
 
 
 
@@ -46,7 +48,7 @@ return (
               <h3>Environnement</h3>
               <img className='image_monparcours' src={Environnement} />
               <p>Sensible aux enjeux environnementaux, j’aide les entreprises à adopter des pratiques durables, que ce soit par la
-              réduction de leur empreinte carbone ou la mise en place de certifications comme l&#39;ISO 14001. »</p>
+              réduction de leur empreinte carbone ou la mise en place de certifications comme l&#39;ISO 14001. </p>
               <RedirectButton className="button" path="/profile" label="Découvrir" />
             </div>
             <div className="opportunity">
@@ -70,6 +72,30 @@ spécifiques. J’utilise une approche humaine &amp; flexible pour obtenir des r
               <img className='image_monparcours' src={Engagement} />
               <p>L&#39;avenir des entreprises passe par une gestion responsable. J’accompagne mes clients dans leur transition vers des
               pratiques plus respectueuses de l’environnement.</p>
+              <RedirectButton className="button" path="/contact" label="Connect" />
+            </div>
+            <div className="opportunity">
+              <h3>Management</h3>
+              <img className='image_monparcours' src={Management} />
+              <div><p>Conduite de réunion ? Une revue de direction à préparer ? des entretiens annuels individuels ou des entretiens
+              professionnels obligatoires à réaliser ? </p><p>Nous sommes à votre disposition pour :
+                  </p>
+<p>- Préparer, réaliser, former, accompagner, coacher !</p>
+<p>conflit ? une envie de retrouver du dynamisme au sein d’une équipe ? Nous vous accompagnons avec des
+solutions sur mesure</p></div>
+
+              <RedirectButton className="button" path="/contact" label="Connect" />
+            </div>
+            <div className="opportunity">
+              <h3>Management de transition</h3>
+              <img className='image_monparcours' src={Transition} />
+              <div><p>En période de crise, de restructuration ou de fusion, un manager de transition vous aide à maintenir la continuité tout en pilotant le changement.</p>
+Lors d'un départ soudain ou d'une longue absence d'un cadre, 
+nous sommes à votre disposition et capable de prendre la direction des opérations sans perturber le fonctionnement quotidien.<p>Vous avez un projet stratégique à mener (changement de système, expansion, certification) ? 
+
+</p>
+ En tant que manager de transition, 
+nous vous apportons notre expertise pour garantir la réussite de ces initiatives en respectant vos objectifs et délais.</div>
               <RedirectButton className="button" path="/contact" label="Connect" />
             </div>
           </div>

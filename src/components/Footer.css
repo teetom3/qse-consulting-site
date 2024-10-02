@@ -1,3 +1,9 @@
 .footer-section {
   margin-top: 10px;
 }
+
+.footer-item ul li a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}

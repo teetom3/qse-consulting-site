@@ -30,12 +30,12 @@ const LandingPage = () => {
               <img src={ImgAudit} alt="enviroconsult" />
               <div className="enviroconsult-text">
                 <h2>AUDIT : évaluer, diagnostiquer, améliorer</h2>
-                <p>L’audit est un outil essentiel pour évaluer vos processus internes, identifier les non-conformités et mettre en lumière
-                les opportunités d’amélioration.<p>
+                <div><p>L’audit est un outil essentiel pour évaluer vos processus internes, identifier les non-conformités et mettre en lumière
+                les opportunités d’amélioration.</p>
 
-</p>
+
 <p>Un audit indépendant vous aide à mieux comprendre vos forces et faiblesses, à anticiper les risques et à obtenir des
-recommandations concrètes pour améliorer vos performances.</p></p>
+recommandations concrètes pour améliorer vos performances.</p></div>
                 <RedirectButton className="button" path="/profile" label="Start Consultation Now" />
               </div>
             </div>
@@ -48,13 +48,13 @@ recommandations concrètes pour améliorer vos performances.</p></p>
               
               <div className="enviroconsult-advocates-text">
                 <h2>CONSEIL : Stratégie et expertise sur mesure</h2>
-                <p>Le conseil est un levier pour transformer vos processus, améliorer votre organisation et vous assurer une croissance
-durable.<p>Nos conseils pratiques s’adaptent à chaque secteur pour améliorer durablement vos performances.</p>
+                <div><p>Le conseil est un levier pour transformer vos processus, améliorer votre organisation et vous assurer une croissance
+durable.</p><p>Nos conseils pratiques s’adaptent à chaque secteur pour améliorer durablement vos performances.</p>
 <p>
 Nous analysons vos besoins spécifiques pour vous proposer des solutions adaptées. Notre approche se base sur une
 écoute attentive et une expertise multisectorielle pour garantir une intervention ciblée et efficace.
-</p>
-</p>
+</p></div>
+
 <RedirectButton className="button" path="/apropos" label="En Savoir Plus" />
               </div>
               <img src={ImgConseil} alt="enviroconsult-advocates" />
@@ -68,18 +68,21 @@ Nous analysons vos besoins spécifiques pour vous proposer des solutions adapté
               <img src={ImgFormation} alt="enviroconsult" />
               <div className="enviroconsult-text">
                 <h2>FORMATION : Développer vos compétences</h2>
-                <p>La formation est un investissement clé pour assurer la montée en compétences de vos équipes opérationnelles et
-cadres dirigeants, et leur permettre de répondre aux défis de demain :
+                <div><p>La formation est un investissement clé pour assurer la montée en compétences de vos équipes opérationnelles et
+                cadres dirigeants, et leur permettre de répondre aux défis de demain :</p>
 <p>- En groupe : Nous proposons des formations sur site pour des groupes de 5 à 6 personnes. Chaque session est
 adaptée aux spécificités de votre secteur.</p>
+<p>
 - Individuelles : Nous offrons également des formations individualisées pour un accompagnement sur mesure.
 Nos formations visent à renforcer l’autonomie de vos équipes, améliorer leur productivité et assurer une conformité
-aux standards les plus élevés.<p>
+aux standards les plus élevés.
 
 </p>
 
+
+
 <p>Chaque formation est suivie d’une évaluation et peut déboucher sur une certification reconnue, gage de compétence
-et de savoir-faire.</p></p>
+et de savoir-faire.</p></div>
 <RedirectButton className="button" path="/apropos" label="En Savoir Plus" />
               </div>
             </div>
@@ -92,13 +95,13 @@ et de savoir-faire.</p></p>
               
               <div className="enviroconsult-advocates-text">
                 <h2>MANAGEMENT</h2>
-                <p><p>Conduite de réunion ? Une revue de direction à préparer ? des entretiens annuels individuels ou des entretiens
-                professionnels obligatoires à réaliser ? <p>Nous sommes à votre disposition pour :
-                  </p></p>
-<p>Préparer, réaliser, former, accompagner, coacher </p>- !
-<p>Un conflit ? une envie de retrouver du dynamisme au sein d’une équipe ? Nous vous accompagnons avec des
-solutions sur mesure</p>
-</p>
+                <div><p>Conduite de réunion ? Une revue de direction à préparer ? des entretiens annuels individuels ou des entretiens
+                professionnels obligatoires à réaliser ?</p> <p>Nous sommes à votre disposition pour :
+                  </p>
+<p>- Préparer, réaliser, former, accompagner, coacher !</p>
+<p>conflit ? une envie de retrouver du dynamisme au sein d’une équipe ? Nous vous accompagnons avec des
+solutions sur mesure</p></div>
+
 <RedirectButton className="button" path="/apropos" label="En Savoir Plus" />
               </div>
               <img src={ImgManagement} alt="enviroconsult-advocates" />

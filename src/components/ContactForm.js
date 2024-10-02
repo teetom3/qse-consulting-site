@@ -23,7 +23,7 @@ const ContactForm = () => {
     };
 
     emailjs
-      .send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID')
+      .send(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, templateParams, process.env.REACT_APP_EMAILJS_USER_ID)
       .then(
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
@@ -55,7 +55,7 @@ const ContactForm = () => {
             <section className="contact">
               <h2>Get in touch</h2>
               <div className="contact-options">
-                <button className="contact-button">
+                <button className="button">
                   <span className="icon">
                     <i className="fas fa-envelope"></i>
                   </span>
@@ -70,10 +70,10 @@ const ContactForm = () => {
               </div>
             </section>
             <section className="form">
-              <h2>Drop us a line</h2>
+              <h2>Ecrivez nous !</h2>
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
-                  <label htmlFor="fullName">Full Name</label>
+                  <label htmlFor="fullName">Nom</label>
                   <input
                     type="text"
                     id="fullName"
@@ -83,7 +83,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="email">Email Address</label>
+                  <label htmlFor="email">Email </label>
                   <input
                     type="email"
                     id="email"
@@ -93,7 +93,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="companyName">Company Name</label>
+                  <label htmlFor="companyName">Entreprise</label>
                   <input
                     type="text"
                     id="companyName"
@@ -102,7 +102,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="phoneNumber">Phone Number</label>
+                  <label htmlFor="phoneNumber">Numéro de téléphone</label>
                   <input
                     type="tel"
                     id="phoneNumber"
@@ -111,7 +111,7 @@ const ContactForm = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="subject">Subject</label>
+                  <label htmlFor="subject">Sujet</label>
                   <textarea
                     id="subject"
                     value={subject}
@@ -119,7 +119,7 @@ const ContactForm = () => {
                     required
                   />
                 </div>
-                <button className="button" type="submit">Submit</button>
+                <button className="button" type="submit">Envoyé</button>
               </form>
               {messageStatus && <p className="message-status">{messageStatus}</p>}
             </section>

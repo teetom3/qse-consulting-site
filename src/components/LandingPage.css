@@ -106,3 +106,159 @@
   line-height: 1.6;
   font-size: 18px;
  }
+
+ @media (max-width: 768px) {
+  
+
+  .main {
+    background: #000000;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #2D2D2D;
+  }
+  
+  .hero h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  /* Info sections */
+  .info-section, .service-section, .innovation-section, .efficiency-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #161515;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .info-section:nth-child(even), .service-section:nth-child(even), .innovation-section:nth-child(even), .efficiency-section:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .info-content, .service-content, .innovation-content, .efficiency-content {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .info-image, .service-image, .innovation-image, .efficiency-image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info-image img, .service-image img, .innovation-image img, .efficiency-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Values section */
+  .values-section {
+    padding: 40px 20px;
+    background-color: #181818;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .values-section h2 {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  /* Enviroconsult sections */
+  .enviroconsult-section, .enviroconsult-advocates-section {
+    padding: 40px 20px;
+    background-color: #212121;
+  }
+  
+  .enviroconsult, .enviroconsult-advocates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .enviroconsult img, .enviroconsult-advocates img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .enviroconsult-text, .enviroconsult-advocates-text {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  /* Impact assessment and trusted sections */
+  .impact-assessment-section, .trusted-by-clients-section {
+    padding: 40px 20px;
+    background-color: #303030;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .impact-assessment h2, .trusted-by-clients h2 {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  .button {
+    --color: #009688;
+    padding: 0.8em 1.5em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid var(--color);
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+  }
+  
+  .button:hover {
+    color: #0a191e;
+  }
+  
+  .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+  }
+  
+  .button::before {
+    top: -1em;
+    left: -1em;
+  }
+  
+  .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+  }
+  
+  .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+  }
+
+ }
