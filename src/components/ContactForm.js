@@ -50,7 +50,7 @@ const ContactForm = () => {
           <div className="hero-content">
             <h2>Rencontrons-nous en personne</h2>
             <p>
-            Vous souhaitez en savoir plus ? Contactez-nous pour discuter de vos besoins spécifiques et obtenir un devis personnalisé
+            Vous souhaitez en savoir plus ? Contactez-moi pour discuter de vos besoins spécifiques et obtenir un devis personnalisé
             </p>
             <section className="contact">
               <h2>Get in touch</h2>

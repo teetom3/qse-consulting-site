@@ -34,7 +34,7 @@ const LandingPage = () => {
                 les opportunités d’amélioration.</p>
 
 
-<p>Un audit indépendant vous aide à mieux comprendre vos forces et faiblesses, à anticiper les risques et à obtenir des
+<p>En tant  qu'auditeur indépendant vous aide à mieux comprendre vos forces et faiblesses, à anticiper les risques et à obtenir des
 recommandations concrètes pour améliorer vos performances.</p></div>
                 <RedirectButton className="button" path="/profile" label="Start Consultation Now" />
               </div>
@@ -48,12 +48,10 @@ recommandations concrètes pour améliorer vos performances.</p></div>
               
               <div className="enviroconsult-advocates-text">
                 <h2>CONSEIL : Stratégie et expertise sur mesure</h2>
-                <div><p>Le conseil est un levier pour transformer vos processus, améliorer votre organisation et vous assurer une croissance
-durable.</p><p>Nos conseils pratiques s’adaptent à chaque secteur pour améliorer durablement vos performances.</p>
-<p>
-Nous analysons vos besoins spécifiques pour vous proposer des solutions adaptées. Notre approche se base sur une
-écoute attentive et une expertise multisectorielle pour garantir une intervention ciblée et efficace.
-</p></div>
+                <div><p>Le conseil est un levier pour transformer vos processus, améliorer votre organisation et vous assurer une croissance durable.</p>
+<p>Mes conseils pratiques s’adaptent à chaque secteur pour améliorer durablement vos performances.</p>
+<p>Je prends le temps d'analyser vos besoins spécifiques afin de vous proposer des solutions adaptées. Mon approche repose sur une écoute attentive et une expertise multisectorielle pour garantir une intervention ciblée et efficace.</p>
+</div>
 
 <RedirectButton className="button" path="/apropos" label="En Savoir Plus" />
               </div>
@@ -68,21 +66,14 @@ Nous analysons vos besoins spécifiques pour vous proposer des solutions adapté
               <img src={ImgFormation} alt="enviroconsult" />
               <div className="enviroconsult-text">
                 <h2>FORMATION : Développer vos compétences</h2>
-                <div><p>La formation est un investissement clé pour assurer la montée en compétences de vos équipes opérationnelles et
-                cadres dirigeants, et leur permettre de répondre aux défis de demain :</p>
-<p>- En groupe : Nous proposons des formations sur site pour des groupes de 5 à 6 personnes. Chaque session est
-adaptée aux spécificités de votre secteur.</p>
-<p>
-- Individuelles : Nous offrons également des formations individualisées pour un accompagnement sur mesure.
-Nos formations visent à renforcer l’autonomie de vos équipes, améliorer leur productivité et assurer une conformité
-aux standards les plus élevés.
-
-</p>
-
-
-
-<p>Chaque formation est suivie d’une évaluation et peut déboucher sur une certification reconnue, gage de compétence
-et de savoir-faire.</p></div>
+                <div><p>La formation est un investissement clé pour assurer la montée en compétences de vos équipes opérationnelles et cadres dirigeants, et leur permettre de répondre aux défis de demain :</p>
+<ul>
+    <li>En groupe : Je propose des formations sur site pour des groupes de 5 à 6 personnes. Chaque session est adaptée aux spécificités de votre secteur.</li>
+    <li>Individuelle : J'offre également des formations individualisées pour un accompagnement sur mesure.</li>
+</ul>
+<p>Mes formations visent à renforcer l’autonomie de vos équipes, améliorer leur productivité et assurer une conformité aux standards les plus élevés. Chaque formation est suivie d’une évaluation et peut déboucher sur une certification reconnue, gage de compétence et de savoir-faire.</p>
+<p>Vous souhaitez en savoir plus ? Contactez-moi pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</p>
+</div>
 <RedirectButton className="button" path="/apropos" label="En Savoir Plus" />
               </div>
             </div>

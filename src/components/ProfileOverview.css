@@ -14,7 +14,7 @@
   height: auto;
   border-radius: 50%;
  justify-self: center;
-  border: 10px solid #009688;
+  border: 10px solid 	#00883A;
   align-self: center;
   
 }
@@ -49,7 +49,7 @@ p {
   width: 50%;
   height: auto;
   border-radius: 40%;
-  border: 10px solid #009688;
+  border: 10px solid 	#00883A;
 }
 
 .stat {
@@ -112,7 +112,13 @@ p {
   font-size: 20px;
   cursor: pointer;
 }
-  
+  @media(max-width : 1000px) {
+
+    .image_monparcours{
+      width: 40%;
+      height: auto;
+    }
+  }
 
 @media(max-width:768px) {
 
@@ -139,7 +145,7 @@ p {
   width: 80%;
   height: auto;
   border-radius: 50%;
-  border: 10px solid #009688;
+  border: 10px solid 	#00883A;
   margin-bottom: 20px;
 }
 
@@ -168,7 +174,7 @@ p {
   width: 80%;
   height: auto;
   border-radius: 40%;
-  border: 10px solid #009688;
+  border: 10px solid 	#00883A;
   margin-bottom: 20px;
 }
 

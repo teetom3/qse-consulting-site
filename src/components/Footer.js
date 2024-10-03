@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import LOGO from "../images/PHOTO-2024-10-01-11-33-56-removebg-preview.png";
+import LOGO from "../images/Screenshot_20240925_224013_Outlook-removebg-preview.png";
 const Footer = () => {
   return (
   

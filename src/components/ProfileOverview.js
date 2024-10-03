@@ -8,6 +8,10 @@ import ImgQuality from "../images/quality.webp";
 import ImgEnvironement from "../images/environnement.webp";
 import ImgManagement from "../images/management.webp";
 import ImgTransition from "../images/transition .webp";
+import ImgMoi from "../images/pourquoimoi.webp";
+import ImgExcellence from "../images/excellence.webp";
+import ImgEcoute from "../images/ecoute.webp";
+import ImgEngagement from "../images/engagement.webp";
 
 
 const ProfileOverview = () => {
@@ -16,11 +20,9 @@ const ProfileOverview = () => {
     <div className="profile">
       <div className='Profile_Text'>
       <h2>« Qui suis-je ? »</h2>
-      <p>Passionné par l’excellence opérationnelle, je mets mes 20 années d’expérience au service des entreprises pour les
-aider à améliorer leurs performances dans les domaines de la qualité, sécurité et environnement. »
-Cette expérience professionnelle couplée à mon cursus universitaire me permet de devenir aujourd’hui un expert en
-audit, conseil et formation, je suis spécialisé dans l’accompagnement des entreprises vers l’optimisation de leurs
-processus et la conformité aux normes les plus strictes. </p>
+      <p>Passionné par l’excellence opérationnelle, je mets mes 20 années d’expérience au service des entreprises pour les aider à améliorer leurs performances dans les domaines de la qualité, sécurité et environnement.</p>
+<p>Cette expérience professionnelle, couplée à mon cursus universitaire, me permet de devenir aujourd’hui un expert en audit, conseil et formation. Je suis spécialisé dans l’accompagnement des entreprises vers l’optimisation de leurs processus et la conformité aux normes les plus strictes.</p>
+
       </div>
     <img src={ImgProfile} alt="Profile Picture" />
   </div>
@@ -34,71 +36,56 @@ processus et la conformité aux normes les plus strictes. </p>
         <img className="image_monparcours" src={ImgPro}/>
         <div className="stat">
           <h3>Mon Parcours professionnel</h3>
-          <p>Mon parcours a commencé dans le secteur la fonderie industrielle puis de la fonderie d’art, où j&#39;ai rapidement
-développé une expertise en management de la qualité et de la sécurité. J&#39;ai évolué au sein de diverses industries, le
-BTP, le matériel de lutte contre l’incendie, la métallurgie, les dispositifs médicaux, où j’ai supervisé des projets
-d’envergure. </p>
-<p>Au fil des années, j&#39;ai affiné mes compétences dans l’analyse des risques, l’audit et la mise en conformité selon des
-normes strictes comme l’ISO 9001, l’ISO 14001 et l’ISO 13485, avec une expertise particulière dans les secteurs à
-forte contrainte réglementaire (médical, nucléaire,…). </p>
+          <p>Mon parcours a commencé dans le secteur de la fonderie industrielle puis de la fonderie d’art, où j'ai rapidement développé une expertise en management de la qualité et de la sécurité. J'ai évolué au sein de diverses industries comme le BTP, le matériel de lutte contre l’incendie, la métallurgie et les dispositifs médicaux, où j’ai supervisé des projets d’envergure.</p>
+<p>Au fil des années, j'ai affiné mes compétences dans l’analyse des risques, l’audit et la mise en conformité selon des normes strictes comme l’ISO 9001, l’ISO 14001 et l’ISO 13485, avec une expertise particulière dans les secteurs à forte contrainte réglementaire (médical, nucléaire…).</p>
+
         </div>
+    
        
       </div>
       
     </div>
+    <div className="profile">
+      <div className='Profile_Text'>
+      <h2>Pourquoi moi ?</h2>
+      <p>Chaque entreprise est unique, c'est pourquoi je privilégie une approche sur mesure, adaptée à vos spécificités. Mon engagement : vous offrir des solutions pratiques et concrètes, qui génèrent des résultats mesurables.</p>
+
+<p><strong>Expérience terrain :</strong> Ayant travaillé concrètement sur le terrain, je comprends les défis quotidiens auxquels sont confrontées les entreprises. J’ai accompagné des sociétés de tailles diverses à travers des projets complexes, notamment dans l'implantation de centrales photovoltaïques, la réalisation de bilans carbone et la préparation aux certifications.</p>
+
+<p><strong>Résultats concrets :</strong> Mon objectif est de vous accompagner dans l’obtention de résultats tangibles : amélioration de vos performances, réduction des coûts, renforcement de la conformité aux normes. Que ce soit pour un audit, un conseil stratégique ou une formation, je m’assure que chaque mission apporte une réelle valeur ajoutée à votre entreprise.</p>
+
+      </div>
+    <img src={ImgMoi} alt="Profile Picture" />
+  </div>
     
   </div>
 </section>
+
+<h2>Mes valeurs</h2>
 <section className="showcase">
   <div className="container">
     <ul className="showcase-list">
       <li className="showcase-item">
-        <img src={ImgQuality} alt="Sustainable Architecture" />
-        <h3>Qualité</h3>
-        <p>En tant que spécialiste de la qualité, j&#39;accompagne les entreprises dans l&#39;optimisation de leurs systèmes de
-management de la qualité, tout en veillant à leur conformité aux normes et à la réglementation en vigueur. L’analyse
-des risques, la traçabilité et la sécurité du patient sont les piliers de l’ISO 13485, notamment pour les dispositifs
-médicaux.</p>
+        <img src={ImgExcellence} alt="Sustainable Architecture" />
+        <h3>Excellence </h3>
+        <p> L’excellence est au cœur de ma démarche. Chaque intervention est une opportunité de vous apporter des solutions performantes et durables.</p>
        
       </li>
       <li className="showcase-item">
-        <img src={ImgSafety} alt="Green Fashion Trends" />
-        <h3>Sécurité</h3>
-        <p>Garantir la sécurité de vos équipes est essentiel. Je vous aide à identifier les risques, à mettre en place des mesures
-        préventives et à garantir la conformité aux réglementations en matière de santé et sécurité au travail.</p>
+        <img src={ImgEcoute} alt="Green Fashion Trends" />
+        <h3>Écoute</h3>
+        <p>Je crois fermement à l’importance de l’écoute pour comprendre vos besoins spécifiques et y répondre de manière pertinente.</p>
         
       </li>
       <li className="showcase-item">
-        <img src={ImgEnvironement} alt="Dream Destinations" />
-        <h3>Environnement</h3>
-        <p>Sensible aux enjeux environnementaux, j’aide les entreprises à adopter des pratiques durables, que ce soit par la
-        réduction de leur empreinte carbone ou la mise en place de certifications comme l&#39;ISO 14001. </p>
-       
-      </li>
-      <li className="showcase-item">
-        <img src={ImgManagement} alt="Dream Destinations" />
-        <h3>Management</h3>
-        <p>Conduite de réunion ? Une revue de direction à préparer ? des entretiens annuels individuels ou des entretiens
-professionnels obligatoires à réaliser ? Nous sommes à votre disposition pour :
-- Préparer, réaliser, former, accompagner, coacher !
-Un conflit ? une envie de retrouver du dynamisme au sein d’une équipe ? Nous vous accompagnons avec des
-solutions sur mesure</p>
-       
-      </li>
-      <li className="showcase-item">
-        <img src={ImgTransition} alt="Dream Destinations" />
-        <h3>Management de Transition</h3>
-        <div><p>En période de crise, de restructuration ou de fusion, un manager de transition vous aide à maintenir la continuité tout en pilotant le changement.</p>
-Lors d'un départ soudain ou d'une longue absence d'un cadre, 
-nous sommes à votre disposition et capable de prendre la direction des opérations sans perturber le fonctionnement quotidien.<p>Vous avez un projet stratégique à mener (changement de système, expansion, certification) ? 
+        <img src={ImgEngagement} alt="Dream Destinations" />
+        <h3>Engagement durable</h3>
+        <p> L'avenir des entreprises passe par une gestion responsable. J’accompagne mes clients dans leur transition vers des pratiques plus respectueuses de l’environnement.</p>
+<p>Ensemble, nous pouvons relever les défis de votre entreprise et aller au-delà de vos objectifs de performance. Prenons contact pour discuter de vos besoins et élaborer une stratégie gagnante.</p>
 
-</p>
-<p>
-Vous avez un projet stratégique à mener (changement de système, expansion, certification) ?
-  </p> En tant que manager de transition, 
-nous vous apportons notre expertise pour garantir la réussite de ces initiatives en respectant vos objectifs et délais.</div>
-       
       </li>
+     
+      
     </ul>
     
   </div>
