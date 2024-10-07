@@ -33,7 +33,7 @@ const ProfileOverview = () => {
     <div className="hero-content">
      
       <div className="stats">
-        <img className="image_monparcours" src={ImgPro}/>
+        <img className="img_pro" src={ImgPro}/>
         <div className="stat">
           <h3>Mon Parcours professionnel</h3>
           <p>Mon parcours a commencé dans le secteur de la fonderie industrielle puis de la fonderie d’art, où j'ai rapidement développé une expertise en management de la qualité et de la sécurité. J'ai évolué au sein de diverses industries comme le BTP, le matériel de lutte contre l’incendie, la métallurgie et les dispositifs médicaux, où j’ai supervisé des projets d’envergure.</p>

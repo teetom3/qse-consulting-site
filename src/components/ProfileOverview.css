@@ -45,6 +45,13 @@ p {
   margin-bottom: 20px;
 }
 
+.img_pro {
+  width: 50%;
+  height: 50%;
+  border-radius: 40%;
+  border: 10px solid 	#00883A;
+}
+
 .image_monparcours{
   width: 50%;
   height: auto;

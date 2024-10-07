@@ -34,7 +34,7 @@ const LandingPage = () => {
                 les opportunités d’amélioration.</p>
 
 
-<p>En tant  qu'auditeur indépendant vous aide à mieux comprendre vos forces et faiblesses, à anticiper les risques et à obtenir des
+<p>En tant  qu'auditeur indépendant je vous aide à mieux comprendre vos forces et faiblesses, à anticiper les risques et à obtenir des
 recommandations concrètes pour améliorer vos performances.</p></div>
                 <RedirectButton className="button" path="/profile" label="Start Consultation Now" />
               </div>

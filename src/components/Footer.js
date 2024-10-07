@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Footer.css";
 import LOGO from "../images/Screenshot_20240925_224013_Outlook-removebg-preview.png";
+import { Link } from 'react-router-dom';
+import RedirectButton from './Redirection';
 const Footer = () => {
   return (
   
@@ -14,17 +16,17 @@ const Footer = () => {
                 <div className="footer-item">
                   <h3>Support</h3>
                   <ul>
-                    <li><a href="/contact">Questions & Answers</a></li>
-                    <li><a href="/apropos">Client Support</a></li>
-                    <li><a href="/apropos">Environmental Guidance</a></li>
+                    <li><Link href="/contact">Questions & Answers</Link></li>
+                    <li><Link href="/apropos">Client Support</Link></li>
+                    <li><Link href="/apropos">Environmental Guidance</Link></li>
                   </ul>
                 </div>
                 <div className="footer-item">
                   <h3>Services</h3>
                   <ul>
-                    <li><a href="/apropos">Confidentiality Policy</a></li>
-                    <li><a href="/profile">Site Navigation</a></li>
-                    <li><a href="/contact">Membership</a></li>
+                    <li><Link to="/apropos">Confidentiality Policy</Link></li>
+                    <li><Link to="/profile">Site Navigation</Link></li>
+                    <li><Link to="/contact">Membership</Link></li>
                   </ul>
                 </div>
                 <div className="footer-item">
@@ -37,7 +39,7 @@ const Footer = () => {
               </div>
               <div className="footer-join-now">
                 
-                <button className="button">Join Now</button>
+                <RedirectButton path="/contact" label="Join Now" className="button"/>
               </div>
             </div>
           </div>
