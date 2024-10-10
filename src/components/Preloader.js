@@ -1,7 +1,7 @@
 // Preloader.js
 import React, { useEffect, useState } from 'react';
 import './Preloader.css'; // Fichier CSS pour les styles
-import LOGO from "../images/Screenshot_20240925_224013_Outlook-removebg-preview.png";
+import LOGO from "../images/Screenshot_20241007_161728_Outlook__1_-removebg-preview.png";
 
 const Preloader = () => {
   const [activeWord, setActiveWord] = useState(0);

@@ -1,0 +1,17 @@
+.nav ul li a {
+    transition: transform 0.3s ease, border 0.3s ease, font-weight 0.3s ease; /* Transition pour les animations */
+  }
+  
+  .nav ul li a.active {
+    font-weight: bold; /* Police en gras */
+    color: #00932A; /* Couleur du texte active */
+    border: 2px solid #00932A; /* Bord vert */
+    border-radius: 15px; /* Bord arrondi */
+    padding: 5px 10px; /* Un peu d'espace pour le lien */
+    transform: scale(1.05); /* Légère animation de grossissement */
+  }
+  
+  .nav ul li a:hover {
+    transform: scale(1.1); /* Grossissement au survol */
+  }
+  

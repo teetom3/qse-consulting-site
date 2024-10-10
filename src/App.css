@@ -355,6 +355,9 @@
   color: #ffffff;
   
 }
+.hero-section{
+  display: none;
+}
 
 .container {
   max-width: 1200px;

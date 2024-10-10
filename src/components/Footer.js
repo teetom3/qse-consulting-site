@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import LOGO from "../images/Screenshot_20240925_224013_Outlook-removebg-preview.png";
+import LOGO from "../images/Screenshot_20241007_161728_Outlook__1_-removebg-preview.png";
 import { Link } from 'react-router-dom';
 import RedirectButton from './Redirection';
 const Footer = () => {
